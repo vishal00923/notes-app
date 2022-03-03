@@ -1,0 +1,5 @@
+.notes-list {
+    display: grid;
+    grid-gap: 1.275rem;
+    grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+}
