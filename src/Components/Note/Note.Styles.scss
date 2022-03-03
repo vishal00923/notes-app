@@ -1,0 +1,38 @@
+.card {
+    height: 324px;
+    padding: 1.5rem;
+    background: rgba(63, 94, 251, 1);
+    border-radius: 1.5rem;
+    box-shadow: 5px 4px 5px 1px rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nova Mono', monospace;
+    transition: all 0.5s ease-in;
+    white-space: pre-wrap; /* for preserving the whitespace in the text */
+    word-break: break-all; /* to limit the spreading of text inisde conatiner */
+    cursor: pointer;
+
+    .text {
+        font-size: 1.275rem;
+        font-weight: 700;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .date {
+            font-size: 1.175rem;
+            font-weight: 700;
+        }
+
+        .delete-btn {
+            text-align: center;
+            font-size: 1.475rem;
+            background: none;
+            cursor: pointer;
+        }
+    }
+}
