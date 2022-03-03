@@ -22,7 +22,7 @@ const NotesWrapper = () => {
     return (
         <div className={`${theme && 'change-theme'} main-container`}>
             <div className="container">
-                <Header handleTheme={setTheme} />
+                <Header theme={theme} handleTheme={setTheme} />
                 <SearchBar handleSearchNote={setSearchText} />
                 <NotesList notes={notes.filter((note) => note.text.toLowerCase().includes(searchText))} setNotes={setNotes} />
             </div>

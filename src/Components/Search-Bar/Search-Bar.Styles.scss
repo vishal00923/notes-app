@@ -3,7 +3,7 @@
     align-items: center;
     border: 2.75px solid rgba(63, 94, 251, 1);
     border-radius: 0.875rem;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgb(255, 255, 255);
     padding: 0.575rem;
     margin-bottom: 2.575rem;
 
@@ -16,12 +16,11 @@
     .search {
         width: 100%;
         border: none;
-        background-color: inherit;
-    }
 
-    [placeholder] {
-        font-size: 1.275rem;
-        font-family: inherit;
-        text-transform: capitalize;
+        &[placeholder] {
+            font-size: 1.275rem;
+            font-family: inherit;
+            text-transform: capitalize;
+        }
     }
 }

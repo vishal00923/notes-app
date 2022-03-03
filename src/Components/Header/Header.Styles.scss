@@ -14,19 +14,9 @@
 
     .toggle-btn {
         text-align: center;
-        background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(0, 254, 222, 1) 50%);
         display: inline-block;
-        color: rgb(0, 0, 0);
-        padding: 1rem 1.5rem;
         font-size: 1.275rem;
-        font-family: inherit;
-        font-weight: 700;
-        border-radius: 0.475rem;
-        transition: all 0.1s;
+        background: none;
         cursor: pointer;
-
-        &:hover {
-            background: linear-gradient(90deg, rgba(0, 254, 222, 1) 50%, rgba(63, 94, 251, 1) 100%);
-        }
     }
 }
