@@ -4,11 +4,11 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 import './Search-Bar.Styles.scss';
 
-const SearchBar = () => {
+const SearchBar = ({ handleSearchNote }) => {
     return (
         <div className="search-bar">
             <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass} />
-            <input className="search" type="text" placeholder="search notes..." onChange={(e) => e.preventDefault()} />
+            <input className="search" type="text" placeholder="search notes..." onChange={(e) => handleSearchNote(e.target.value)} />
         </div>
     );
 };
