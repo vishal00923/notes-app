@@ -1,0 +1,33 @@
+.add-note {
+    background: rgb(0, 255, 128);
+
+    .textarea {
+        border: none;
+        background: inherit;
+        resize: none;
+
+        &[placeholder] {
+            font-family: inherit;
+            font-size: 1.275rem;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+    }
+
+    .char-limit {
+        font-family: 'Lobster Two', cursive;
+        font-size: 1.295rem;
+    }
+
+    .save-btn {
+        display: inline-block;
+        text-align: center;
+        padding: 0.575rem 1.675rem;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        font-family: 'Lobster Two', cursive;
+        font-size: 1.275rem;
+        transition: all 0.4s ease-in;
+        cursor: pointer;
+    }
+}
