@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Notes App 
+## Notes App
 
-<img src="app-preview.png" width="60%" height="80%" />
+<<img src="https://i.ibb.co/TBXTZGr/Screenshot-2023-01-06-205018.png" alt="Preview" border="0">
 
 ## Try It
 
